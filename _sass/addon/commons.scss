@@ -1,17 +1,11 @@
 /* The common styles */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
 
-* {
-}
-
 *:not(#sidebar .sidebar-bottom *) {
   font-family: 'Pretendard Variable', Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
     'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif !important;
-}
-
-#sidebar .sidebar-bottom {
 }
 
 html {
@@ -718,8 +712,9 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  // background: var(--sidebar-bg);
-  background-image: url('../../assets/img/sidebar.jpg');
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../../assets/img/sidebar.jpg');
   background-size: cover;
   background-position: center;
   border-right: 1px solid var(--sidebar-border-color);
