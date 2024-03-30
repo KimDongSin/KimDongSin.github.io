@@ -29,5 +29,14 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
-$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+@font-face {
+  font-family: 'pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family-base: 'pretendard', 'Source Sans Pro', 'Microsoft Yahei',
+  sans-serif !default;
+$font-family-heading: 'pretendard', 'Microsoft Yahei', sans-serif !default;
