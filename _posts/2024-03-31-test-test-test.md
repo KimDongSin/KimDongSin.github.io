@@ -1,0 +1,47 @@
+---
+title: 테스트
+description: 테스트 설명
+author: dongsin
+date: 2024-03-31 03:22:00 +0800
+categories: [test]
+tags: [test]
+pin: true
+math: true
+mermaid: true
+image:
+  path: /commons/devices-mockup.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Responsive rendering of Chirpy theme on multiple devices.
+---
+
+
+# title 
+<!-- h1 -->
+
+1. 첫번째 글
+2. 두번째 글
+3. 세번째 글
+
+1번
+: 1번 설명글
+
+2번
+: 2번 설명글
+
+## 찐하게 표시
+> 배경이 들어간 설명글
+
+www.naver.com
+<!-- 링크 -->
+
+강조할 `텍스트`는 백틱으로 감싼다.
+
+<br />
+
+## 코드블럭
+백틱 3개로 열고 닫음, 타입 지정가능
+```html
+<div>
+  <span>끼얏호</span>
+</div>
+```
