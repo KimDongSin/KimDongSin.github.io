@@ -54,7 +54,7 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
 - [ ] Job
   - [x] Step 1
   - [x] Step 2
-  - [ ] Step 3
+  - [x] Step 3
 
 ### Description list
 
@@ -113,8 +113,12 @@ Here is the `/path/to/the/file.extend`{: .filepath}.
 
 ### Common
 
-```text
+```html
 This is a common code snippet, without syntax highlight and line number.
+<div>
+  asdsadsa
+</div>
+
 ```
 
 ### Specific Language
@@ -166,7 +170,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Default (with caption)
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" }
+![Desktop View](/posts/20190808/mockup.png){: width="100%" height="589" }
 _Full screen width and center alignment_
 
 ### Left aligned
