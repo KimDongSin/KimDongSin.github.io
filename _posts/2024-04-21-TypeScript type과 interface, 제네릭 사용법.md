@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TypeScript] type과 interface, 제네릭 사용법
+title: TypeScript type과 interface, 제네릭 사용법
 description: TypeScript의 type과 interface, 제네릭의 사용법을 포스팅하였습니다.
 author: dongsin
 date: 2024-04-21 06:55 +09:00
