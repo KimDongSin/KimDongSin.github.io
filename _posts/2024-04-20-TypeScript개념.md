@@ -123,4 +123,4 @@ addNumber에 number type 5, 5를 넣으면 number type의 10이 반환되는 것
 }
 ```
 
-TypeScript 공식문서: https://yamoo9.gitbook.io/typescript
+[TypeScript 공식문서](https://yamoo9.gitbook.io/typescript)

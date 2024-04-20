@@ -61,4 +61,4 @@ image:
 ## 결론
 테일윈드는 CSS를 쉽고 효율적으로 작업할 수 있게 해주는 강력한 도구이다. 그러나 사용하기 전에 장단점을 고려하여 프로젝트의 요구 사항에 맞게 선택하는 것이 중요하다.
 
-(Tailwind 공식문서) : (https://tailwindcss.com/docs/installation)
+[Tailwind 공식문서](https://tailwindcss.com/docs/installation)
