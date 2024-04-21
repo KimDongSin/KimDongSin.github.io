@@ -59,6 +59,8 @@ webmaster_verifications:
 # The end of `jekyll-seo-tag` settings
 
 # Web Analytics Settings
+
+# Analytics
 analytics:
   provider: "google-gtag"
   # false (default), "google", "google-universal", "google-gtag", "custom"
