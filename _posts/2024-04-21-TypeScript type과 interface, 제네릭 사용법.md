@@ -14,7 +14,6 @@ image:
   alt: TypeScript 이미지
 ---
 
-
 # 타입스크립트의 type과 interface, 제네릭 사용법을 알아보자.
 >타입스크립트에서는 기본적으로 제공되는 타입말고도 직접 타입을 직접 만들 수 있다.
 
@@ -196,6 +195,57 @@ const Store: React.FC<OwnProps> = ({ info }) => {
 export default Store;
 
 ```
+
+## 제네릭 사용법
+제네릭 타입은 타입에 유연성을 제공하여 재사용을 가능하게 해주는 타입이다. <br />
+어떠한 값이 들어갈지 모를 때 동적으로 처리해야 할 상황에 유용하게 사용할 수 있다.
+
+API를 호출할 때를 예시로 들어보겠다.
+###  API를 호출하여 값을 받아올 때
+```ts
+export type ApiRespones<T> = {
+  data:T[],
+  totalPage:number,
+  page:number
+}
+```
+
+ApiRespones에 어떤 값이 들어올지 모르는 상황이므로,<br />
+제네릭으로 정의하여 동적타입으로 지정할 수 있다.
+
+```ts
+export type Restaurant = {
+    name:string;
+    category:string;
+    address:Address;
+    menu:Menu[];
+}
+
+export type Address = {
+    city:string;
+    detail:string;
+    zipCode:number;
+}
+
+export type Menu = {
+    name:string;
+    price:number;
+    category:string;
+}
+
+export type ApiRespones<T> = {
+  data:T[],
+  totalPage:number,
+  page:number
+}
+
+export type ResturantRespones = ApiRespones<Restaurant>
+export type MenuRespones = ApiRespones<Menu>
+```
+
+따라서 ApiRespones의 틀을 이용하여 동적으로 타입을 지정해서 재사용성있게 사용가능하다.
+
+
 
 
 
