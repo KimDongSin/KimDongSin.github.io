@@ -3,7 +3,7 @@ layout: post
 title: Omit과 Pick사용법
 description: TypeScript의 Omit과 Pick사용법을 포스팅하였습니다.
 author: dongsin
-date: 2024-04-22 14:47 +09:00
+date: 2024-04-23 10:30 +09:00
 categories: [TypeScript]
 tags: [TypeScript]
 pin: false
