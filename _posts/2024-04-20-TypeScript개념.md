@@ -80,17 +80,21 @@ function addNumber(a:number, b:number):number{
 addNumber(5, 5);
 ```
 
-### 
+함수도 마찬가지로 타입을 지정할 수 있다.
+파라미터 a, b number타입으로 지정하였고 함수에도 number타입으로 return되게 설정하였다.
+
+addNumber에 number type 5, 5를 넣으면 number type의 10이 반환되는 것을 확인 할 수 있다.
+
+## 변수에 ts적용
+ 
 
 ```ts
 let color: 'red' | 'orange' | 'yellow' = 'red'; // red, orange, yellow 중 하나의 값만 넣을 수 있고, 기본값은 red
 color = orangeaaa; // red, orange, yellow 이외에 다른 값이 들어오면 에러발생
 ```
 
-함수도 마찬가지로 타입을 지정할 수 있다.
-파라미터 a, b number타입으로 지정하였고 함수에도 number타입으로 return되게 설정하였다.
-
-addNumber에 number type 5, 5를 넣으면 number type의 10이 반환되는 것을 확인 할 수 있다.
+TypeScript 를 사용하면 이렇게 특정 변수 또는 상수의 타입을 지정 할 수 있고<br />
+우리가 사전에 지정한 타입이 아닌 값이 설정 될 때 바로 에러를 발생시킵니다.<br />
 
 ## tsc
 > tsc index.ts
