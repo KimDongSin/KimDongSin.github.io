@@ -80,6 +80,13 @@ function addNumber(a:number, b:number):number{
 addNumber(5, 5);
 ```
 
+### 
+
+```ts
+let color: 'red' | 'orange' | 'yellow' = 'red'; // red, orange, yellow 중 하나의 값만 넣을 수 있고, 기본값은 red
+color = orangeaaa; // red, orange, yellow 이외에 다른 값이 들어오면 에러발생
+```
+
 함수도 마찬가지로 타입을 지정할 수 있다.
 파라미터 a, b number타입으로 지정하였고 함수에도 number타입으로 return되게 설정하였다.
 
