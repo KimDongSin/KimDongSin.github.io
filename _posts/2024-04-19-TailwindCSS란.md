@@ -56,7 +56,7 @@ image:
 
 ### 적용방법
 
-```html
+```tsx
 <body>
     <div class="bg-gray-200 p-4">
         <h1 class="text-2xl font-bold text-center text-blue-600">제목</h1>
