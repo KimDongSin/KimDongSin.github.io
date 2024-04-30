@@ -20,6 +20,7 @@ image:
 이 메서드는 boolean값으로 반환한다.
 
 
+
 ```js
 const element = document.querySelector('.example-class');
 const isMatch = element.matches('.another-class');
@@ -88,5 +89,5 @@ const cardList = document.querySelector("#card-list");
 ```
 
 
-다른 분의 movieSite개인과제 프로젝트를 보고 요소추가를 할 때<br />
+다른 분의 movieSite개인과제 프로젝트 코드를 보고 요소추가를 할 때와 이벤트 위임을 쓸 때 <br />
 matches와 join 메서드를 응용해서 이런식으로도 할 수 있다는 것을 깨달았다.
