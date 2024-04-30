@@ -3,7 +3,7 @@ layout: post
 title: Javascript matches, join메서드
 description: Javascript matches, join메서드를 알아보자.
 author: dongsin
-date: 2024-04-29 18:30 +09:00
+date: 2024-04-30 18:30 +09:00
 categories: [Javascript]
 tags: [Javascript]
 pin: false
@@ -20,7 +20,6 @@ image:
 이 메서드는 boolean값으로 반환한다.
 
 
-
 ```js
 const element = document.querySelector('.example-class');
 const isMatch = element.matches('.another-class');
@@ -30,7 +29,6 @@ console.log(isMatch); // true 또는 false 출력
 이 메서드는 주로 CSS스타일링이나 이벤트 위임 등과 함께 사용한다. <br />
 예를 들어, 특정 요소가 이벤트를 처리해야 할 때 해당 요소에 대한 이벤트 핸들러를 등록하기 전에<br />
 요소가 일치하는지 먼저 확인 할 수 있다.
-
 
 
 ## join()
