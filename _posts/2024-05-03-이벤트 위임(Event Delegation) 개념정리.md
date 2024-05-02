@@ -3,7 +3,7 @@ layout: post
 title: 이벤트 위임(Event Delegation) 개념정리
 description: 이벤트 위임(Event Delegation)을 알아보자.
 author: dongsin
-date: 2024-05-03 00:30 +09:00
+date: 2024-05-03 01:30 +09:00
 categories: [Javascript]
 tags: [Javascript]
 pin: false
