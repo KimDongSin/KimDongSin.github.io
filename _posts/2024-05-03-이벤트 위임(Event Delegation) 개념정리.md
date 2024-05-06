@@ -34,7 +34,7 @@ image:
 
 ## 예시코드
 
-```js
+```
 <ul>
   <li>first</li>
   <li>second</li>
