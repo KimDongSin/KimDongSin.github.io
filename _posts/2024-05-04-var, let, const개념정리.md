@@ -3,7 +3,7 @@ layout: post
 title: var, let, const개념정리
 description: JS 변수 선언 방식의 종류를 알아보자.
 author: dongsin
-date: 2024-05-03 00:30 +09:00
+date: 2024-05-04 00:30 +09:00
 categories: [Javascript]
 tags: [Javascript]
 pin: false
