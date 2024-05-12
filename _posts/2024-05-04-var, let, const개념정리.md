@@ -64,7 +64,7 @@ function example() {
     console.log(y); // 출력: 20
   }
   console.log(x); // 출력: 10
-  console.log(y); // 에러: y는 정의되지 않는는다.
+  console.log(y); // 에러: y는 정의되지 않는다.
 }
 
 ```
