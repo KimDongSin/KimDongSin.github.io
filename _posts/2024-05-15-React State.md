@@ -3,7 +3,7 @@ layout: post
 title: State의 중요성과 활용 방법
 description: React State를 알아보자.
 author: dongsin
-date: 2024-05-16 12:10 +09:00
+date: 2024-05-16 00:10 +09:00
 categories: [React]
 tags: [React]
 pin: false
