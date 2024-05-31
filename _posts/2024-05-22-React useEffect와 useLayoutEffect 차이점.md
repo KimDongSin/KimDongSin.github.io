@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React useEffect와 useLayoutEffect 차이점
+title: useEffect와 useLayoutEffect 차이점
 description: useEffect와 useLayoutEffect를 알아보자.
 author: dongsin
 date: 2024-05-22 00:10 +09:00
