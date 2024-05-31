@@ -160,3 +160,5 @@ style-components는 컴포넌트 기반 스타일링이 가능하여 각 컴포�
 
 또한 props으로 동적 스타일링도 가능하고, `createGlobalStyle`을 사용하여 전역 스타일을 쉽게 적용할 수 있다. <br />
 
+[Styled-Components 공식문서](https://styled-components.com/docs)
+
