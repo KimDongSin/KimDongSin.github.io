@@ -18,8 +18,18 @@ image:
 
 
 ## useEffect란?
+> 컴포넌트의 생애 주기 또는 데이터의 생애 주기에 따라 특정 코드를 실행시키고 싶을 때 사용하는 훅
+
+useEffect는 생애주기도 고려하지만 의존성 배열에 따른 데이터변화도 고려한다.
+의존성 배열이 바뀔 때마다 데이터를 다시 
+
+API로 데이터를 가져온다고 가정하면 일단 DOM을 한번 그리고 그 다음에 
+데이터를 받아오고 다시 한번 더 그린다.
+
 `useEffect`는 컴포넌트가 화면에 `그려진 후` 실행된다. <br />
 주로 서버에서 데이터를 가져오는 작업(API), 구독 설정, 타이머설정(`setTimeout, setInterval`)
+
+
 
 ```jsx
 import React, { useState, useEffect } from 'react';
@@ -54,6 +64,12 @@ function MyComponent() {
 
 화면이 그려지기 전에 해야할 작업들을 수행한다. <br />
 >예를 들면 레이아웃이나 스타일 조정 등등 
+
+마찬가지로 API로 데이터를 가져온다고 가정하면
+화면을 그리기전에 데이터를 받아와서 한번에 화면에 그리게 된다.
+
+하지만 데이터를 로딩이 너무 오래걸리면 화면에 아무것도 그려지지 않을 수도 있다.
+
 
 ```jsx
 import React, { useState, useLayoutEffect, useRef } from 'react';
