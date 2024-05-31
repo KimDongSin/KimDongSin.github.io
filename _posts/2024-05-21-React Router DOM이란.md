@@ -5,7 +5,7 @@ description: React Router v5, v6방식을 알아보자.
 author: dongsin
 date: 2024-05-21 00:10 +09:00
 categories: [React]
-tags: [React]
+tags: [React Router]
 pin: false
 math: true
 mermaid: true
