@@ -72,7 +72,7 @@ export default ItemList;
 
 ## 결론 
 ---
-`useId`는 React 18에서 도입된 유용한 Hook으로, SSR환경에서 곻유한 ID를 보장하고,<br />
+`useId`는 React 18에서 도입된 유용한 Hook으로, SSR환경에서 공유한 ID를 보장하고,<br />
 리스트의 키 및 접근성 관련 속성을 생성하는 데 도움을 준다. <br />
 이를 통해 React 애플리케이션의 성능과 접근성을 향상 시킬 수 있다. <br />
 
