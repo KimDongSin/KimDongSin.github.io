@@ -5,7 +5,7 @@ description: React Redux를 알아보자.
 author: dongsin
 date: 2024-05-28 00:10 +09:00
 categories: [React]
-tags: [Redux]
+tags: [styled-components]
 pin: false
 math: true
 mermaid: true
