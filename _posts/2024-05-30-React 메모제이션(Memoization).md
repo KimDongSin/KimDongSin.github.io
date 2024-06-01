@@ -5,7 +5,7 @@ description: 메모제이션(Memoization) 종류
 author: dongsin
 date: 2024-05-30 00:10 +09:00
 categories: [React]
-tags: [Redux, Redux ToolKit]
+tags: [React]
 pin: false
 math: true
 mermaid: true
