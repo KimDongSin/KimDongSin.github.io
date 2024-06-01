@@ -102,8 +102,8 @@ export default todosSlice.reducer;
 ```
 
 ## 4. 컴포넌트에서 Redux 사용
-```js
-// TodoList.js
+```jsx
+// TodoList.jsx
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addTodo, deleteTodo } from './todosSlice';
