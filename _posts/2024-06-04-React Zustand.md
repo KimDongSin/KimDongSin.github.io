@@ -5,7 +5,7 @@ description: Zustand를 알아보자.
 author: dongsin
 date: 2024-06-04 00:10 +09:00
 categories: [React]
-tags: [React]
+tags: [zustand]
 pin: false
 math: true
 mermaid: true
