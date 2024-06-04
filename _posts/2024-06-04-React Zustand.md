@@ -54,7 +54,7 @@ export default useStore;
 ```
 
 ### 컴포넌트에서 상태 사용
-```js
+```jsx
 // App.js
 import React from 'react';
 import useStore from './store';
