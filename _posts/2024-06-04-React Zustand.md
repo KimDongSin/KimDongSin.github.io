@@ -97,7 +97,7 @@ const useStore = create(devtools(persist((set, get) => ({
 function User() {
   const { user, fetchUser } = useStore()
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchUser(1)
   }, [fetchUser])
 
