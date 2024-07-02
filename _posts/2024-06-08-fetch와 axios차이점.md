@@ -4,7 +4,7 @@ title: fetch와 axios차이점
 description: fetch와 axios차이점 기록
 author: dongsin
 date: 2024-06-08 00:10 +09:00
-categories: [JavaScript]
+categories: [Javascript]
 tags: [Javascript, API 통신]
 pin: false
 math: true
