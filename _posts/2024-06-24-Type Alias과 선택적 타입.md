@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Type Alias과 선택적 타입
-description: Type Alias과 선택적 타입
+description: Type Alias과 선택적 타입 개념정리
 author: dongsin
 date: 2024-06-24 12:00 +09:00
 categories: [TypeScript]
