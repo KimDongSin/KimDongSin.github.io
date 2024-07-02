@@ -119,4 +119,4 @@ Optimistic Update는 사용자가 데이터 변경을 즉시 확인할 수 있�
 React Query를 사용하면 간편하게 캐시를 조작하거나 UI를 업데이트할 수 있어, 사용자 경험을 개선하는 데 <br />
 큰 도움이 된다. 각 상황에 맞게 적절한 방식을 선택하여 사용하면 좋을 것 같다. <br />
 
-[공식문서](https://tanstack.com/query/latest/docs/framework/react/guides/mutations)
+[공식문서](https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates#optimistic-updates)
