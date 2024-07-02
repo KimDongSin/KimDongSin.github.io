@@ -1,9 +1,9 @@
 ---
 layout: post
-title: any 타입과 unknown 타입
-description: any, unknown타입 개념정리
+title: void 타입과 never 타입
+description: void, never 타입 개념정리
 author: dongsin
-date: 2024-06-27 12:00 +09:00
+date: 2024-06-28 12:00 +09:00
 categories: [TypeScript]
 tags: [TypeScript]
 pin: false
@@ -85,34 +85,12 @@ unknown 타입은 값이 실제로 사용되기 전에 타입 검사를 요구�
 
 ## any 타입과 unknown 타입 비교
 ---
-<table>
-  <tr>
-    <th style="background-color: lightgray">특징</th>
-    <th style="background-color: lightgray">`any`</th>
-    <th style="background-color: lightgray">`unknown`</th>
-  </tr>
-  <tr>
-    <td>타입 검사</td>
-    <td>없음</td>
-    <td>필요</td>
-  </tr>
-  <tr>
-    <td>할당 가능한 값</td>
-    <td>모든 값</td>
-    <td>모든 값</td>
-  </tr>
-  <tr>
-    <td>타입 안전성</td>
-    <td>낮음</td>
-    <td>높음</td>
-  </tr>
-  <tr>
-    <td>사용 용이성</td>
-    <td>높음</td>
-    <td>낮음</td>
-  </tr>
-</table>
-
+| 특징           | `any`   | `unknown` |
+| -------------- | ------- | --------- |
+| 타입 검사      | 없음    | 필요      |
+| 할당 가능한 값 | 모든 값 | 모든 값   |
+| 타입 안전성    | 낮음    | 높음      |
+| 사용 용이성    | 높음    | 낮음      |
 
 ### 사용 비교
 ---
